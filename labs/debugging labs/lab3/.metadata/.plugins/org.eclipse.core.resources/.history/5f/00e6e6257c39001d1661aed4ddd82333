@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+int fn(char *buf)
+{
+	char buffer[10];
+	strcpy(buffer,buf);
+	return strlen(buf);
+}
+
+
+int main(void) {
+	fn("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}

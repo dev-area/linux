@@ -1,0 +1,39 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define LEN 80
+
+char *getline(FILE *fp)
+{
+	int i,c
+	char buffer[LEN];
+	
+	for(i=0 ; i< LEN ; i++)
+	{
+		if ( ( c=getc(fp)) == EOF || c == '\n')
+			break;
+		
+		buf[i] = (char)c;
+	}
+	
+	if ( c == EOF && i == 0)
+		return NULL;
+	
+	buf[i] = '\0';
+	return buf;
+}
+
+int getaction()
+{
+	int 
+}
+
+int main(void) {
+
+	FILE *fp;
+	fp=fopen("./test1","r");
+	
+	return EXIT_SUCCESS;
+}

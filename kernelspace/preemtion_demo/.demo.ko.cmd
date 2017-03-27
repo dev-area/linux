@@ -1,0 +1,1 @@
+cmd_/home/developer/threads/demo.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/developer/armsystem/kernel/linux-3.10/scripts/module-common.lds --build-id  -o /home/developer/threads/demo.ko /home/developer/threads/demo.o /home/developer/threads/demo.mod.o

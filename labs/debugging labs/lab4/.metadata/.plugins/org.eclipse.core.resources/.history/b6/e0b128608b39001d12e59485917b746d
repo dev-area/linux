@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : lab4ex.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) 
+{
+	char *p;
+	char *q = "hello world";
+	char *r;
+	
+	p=malloc(strlen(q + 1));
+	strcpy(p,q);
+	r=malloc(strlen(q) + 1);
+	
+	
+	return EXIT_SUCCESS;
+}

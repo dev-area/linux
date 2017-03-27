@@ -1,0 +1,19 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+int fn()
+{
+	char buffer[10];
+	gets(buffer);
+	return strlen(buffer);
+}
+
+
+int main(void) {
+	int y = fn();
+	printf("%d\n",y);
+	return EXIT_SUCCESS;
+}

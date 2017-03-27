@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int x,y,z;
+	puts("!!!Hello World!!!"); 
+	
+	x= 100000;
+	y = 5;
+	
+	z= x/y;
+	
+	if(z > 25,000)
+	{
+		puts("big");
+	}
+	else
+	{
+		puts("small");
+	}
+	
+	printf("result=%d\n",z);
+	
+	
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : lab4ex.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#define MAX_LEN 40
+
+
+int main(int argc, char *argv[]) 
+{
+	char *p;
+	char *q = "hello world and have a nice day";
+	char *r;
+	
+	p=malloc(sizeof(argv[1]));
+	strcpy(p,argv[1]);
+	puts(p);
+	r=malloc(MAX_LEN);
+	strcpy(r,q);
+	puts(p);
+	puts(r);
+	
+	if(r == NULL)
+		puts("failed");
+	
+	
+	return EXIT_SUCCESS;
+}

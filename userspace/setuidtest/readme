@@ -1,0 +1,10 @@
+./app 
+sudo ./app 
+ls -l
+sudo chown root:root ./app 
+ls -l
+./app 
+sudo chmod +s ./app 
+ls -l
+./app 
+
