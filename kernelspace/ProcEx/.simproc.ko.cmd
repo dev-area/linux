@@ -1,0 +1,1 @@
+cmd_/home/developer/examples/kernelspace/ProcEx/simproc.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/developer/armsystem/kernel/linux-3.10/scripts/module-common.lds --build-id  -o /home/developer/examples/kernelspace/ProcEx/simproc.ko /home/developer/examples/kernelspace/ProcEx/simproc.o /home/developer/examples/kernelspace/ProcEx/simproc.mod.o

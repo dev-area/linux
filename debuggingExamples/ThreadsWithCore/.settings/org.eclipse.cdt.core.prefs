@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.exe.debug.1324916444=
+environment/project/cdt.managedbuild.config.gnu.exe.debug.1324916444/PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.1324916444/PATH/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.debug.1324916444/PATH/value=/opt/courses/arm/arm-2009q1/bin\:${PATH}
+environment/project/cdt.managedbuild.config.gnu.exe.debug.1324916444/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.debug.1324916444/appendContributed=true
+environment/project/cdt.managedbuild.config.gnu.exe.release.530093933=
+environment/project/cdt.managedbuild.config.gnu.exe.release.530093933/PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.release.530093933/PATH/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.release.530093933/PATH/value=/opt/courses/arm/arm-2009q1/bin\:${PATH}
+environment/project/cdt.managedbuild.config.gnu.exe.release.530093933/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.release.530093933/appendContributed=true

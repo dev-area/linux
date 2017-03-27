@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project uselibs ****
+
+make all 
+Building file: ../x.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"x.d" -MT"x.d" -o "x.o" "../x.c"
+../x.c: In function ‘main’:
+../x.c:17:2: warning: implicit declaration of function ‘mtrace’ [-Wimplicit-function-declaration]
+Finished building: ../x.c
+ 
+Building target: uselibs
+Invoking: GCC C Linker
+gcc  -o "uselibs"  ./x.o   -ldl
+Finished building target: uselibs
+ 
+
+**** Build Finished ****

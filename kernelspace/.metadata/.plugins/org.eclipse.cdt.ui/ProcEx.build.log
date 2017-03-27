@@ -1,0 +1,12 @@
+make -k all 
+make -C /home/developer/armsystem/kernel/linux-3.10 M=/home/developer/examples/kernelspace/ProcEx modules
+make[1]: Entering directory `/home/developer/armsystem/kernel/linux-3.10'
+  CC [M]  /home/developer/examples/kernelspace/ProcEx/simproc.o
+/home/developer/examples/kernelspace/ProcEx/simproc.c: In function 'myproc_read':
+/home/developer/examples/kernelspace/ProcEx/simproc.c:20:16: warning: ignoring return value of 'copy_to_user', declared with attribute warn_unused_result [-Wunused-result]
+    copy_to_user(buf , "test proc" , 9);
+                ^
+  Building modules, stage 2.
+  MODPOST 1 modules
+  LD [M]  /home/developer/examples/kernelspace/ProcEx/simproc.ko
+make[1]: Leaving directory `/home/developer/armsystem/kernel/linux-3.10'

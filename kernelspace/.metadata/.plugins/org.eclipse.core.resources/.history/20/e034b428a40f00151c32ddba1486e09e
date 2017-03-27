@@ -1,0 +1,91 @@
+/*
+ * $Id: hello2.c,v 1.8 2001/07/18 22:28:18 rubini Exp $
+ */
+#include <linux/init.h>
+#include <linux/module.h>
+#include <linux/moduleparam.h>
+#include <linux/kernel.h>	/* printk() */
+#include <linux/proc_fs.h>
+#include <asm/uaccess.h>
+
+#define MYNAME "driver/my_proc_file"
+
+static struct proc_dir_entry *myproc = NULL;
+
+static char msg[255] = "hello";
+
+module_param_string(msg,msg,255,0);
+		
+int myreadtest(char *page,char **start,off_t off,int count,int *eof,void *data)
+{
+	printk("page=%x off=%d count=%d \n",page,off,count);
+	int len=sprintf(page+off -1,"msg=%s\n",msg);
+	printk("len after=%d\n",len);
+	//if(len <= off+count)
+		//*eof = 1;
+		
+	//*start = page +off;
+	len-=off;
+	if(len > count) len=0;
+	if(len < 0) len=0;  
+	printk("len=%d\n",len);
+	return len;
+}
+int myread(char *page,char **start,off_t off,int count,int *eof,void *data)
+{
+	int len =0;
+	printk("myread\n");
+	if(off == 0){
+		len=sprintf(page,"msg=%s\n",msg);
+		*eof=1;
+	}
+	return len;
+}
+
+int mywrite(struct file *file, const char *buffer, unsigned long count,
+		   void *data)
+{
+//	int *p=0;
+//	*p=100;
+	printk("buffer=%x\n",buffer);
+	if ( copy_from_user(msg, buffer, count) ) {
+		return -EFAULT;
+	}
+	strcpy(msg+count,data);
+	//msg[count] = 0;
+	return count;
+}
+static int
+hello_init (void)
+{
+
+  printk (KERN_INFO "Hello loaded sucessfuly.\n");
+  myproc = create_proc_entry(MYNAME,0,NULL);
+  myproc->read_proc = myread;
+  myproc->write_proc = mywrite;
+  myproc->data = "custom data";
+
+  myproc2= create_proc_entry("/driver/proc2",0,NULL);
+  myproc2->read_proc = myread;
+  myproc2->write_proc = mywrite;
+  myproc2->data = "custom data2";
+
+  
+  return 0;
+
+}
+
+
+static void
+hello_cleanup (void)
+{
+
+  printk (KERN_INFO "hello unloaded succefully.\n");
+  remove_proc_entry(MYNAME, NULL);
+
+}
+
+
+module_init (hello_init);
+module_exit (hello_cleanup);
+MODULE_LICENSE("Dual BSD/GPL");

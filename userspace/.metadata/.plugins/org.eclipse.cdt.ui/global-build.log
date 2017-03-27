@@ -1,0 +1,16 @@
+
+**** Build of configuration Debug for project shlibdemo ****
+
+make all 
+Building file: ../x.c
+Invoking: GCC C Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"x.d" -MT"x.d" -o "x.o" "../x.c"
+Finished building: ../x.c
+ 
+Building target: libshlibdemo.so
+Invoking: GCC C Linker
+arm-none-linux-gnueabi-gcc -shared -o "libshlibdemo.so"  ./x.o   
+Finished building target: libshlibdemo.so
+ 
+
+**** Build Finished ****

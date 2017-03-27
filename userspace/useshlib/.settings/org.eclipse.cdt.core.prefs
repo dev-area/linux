@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.exe.debug.348424271=
+environment/project/cdt.managedbuild.config.gnu.exe.debug.348424271/PATH/delimiter=;
+environment/project/cdt.managedbuild.config.gnu.exe.debug.348424271/PATH/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.debug.348424271/PATH/value=/opt/examples/workspace/shlibdemo/Debug\:$PATH
+environment/project/cdt.managedbuild.config.gnu.exe.debug.348424271/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.debug.348424271/appendContributed=true
+environment/project/cdt.managedbuild.config.gnu.exe.release.536435452=
+environment/project/cdt.managedbuild.config.gnu.exe.release.536435452/PATH/delimiter=;
+environment/project/cdt.managedbuild.config.gnu.exe.release.536435452/PATH/operation=append
+environment/project/cdt.managedbuild.config.gnu.exe.release.536435452/PATH/value=/opt/examples/workspace/shlibdemo/Debug\:$PATH
+environment/project/cdt.managedbuild.config.gnu.exe.release.536435452/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.release.536435452/appendContributed=true

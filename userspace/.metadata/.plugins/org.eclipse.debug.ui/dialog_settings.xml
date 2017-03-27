@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.debug.ui.LAUNCH_CONFIGURATIONS_DIALOG_SECTION">
+		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_1" value="332"/>
+		<item key="DIALOG_X_ORIGIN" value="241"/>
+		<item key="DIALOG_HEIGHT" value="649"/>
+		<item key="DIALOG_FONT_NAME" value="1|Sans Serif|10.0|0|GTK|1|"/>
+		<item key="org.eclipse.debug.ui.EXPANDED_NODES" value=", org.eclipse.cdt.launch.localCLaunch, "/>
+		<item key="DIALOG_Y_ORIGIN" value="151"/>
+		<item key="DIALOG_WIDTH" value="808"/>
+		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_2" value="667"/>
+	</section>
+</section>

@@ -1,0 +1,54 @@
+!SESSION 2015-02-03 03:03:41.694 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_38
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/developer/examples/debuggingExamples -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-03 03:03:53.795
+!MESSAGE Indexed 'Memdebug' (4 sources, 49 headers) in 1.92 sec: 1,723 declarations; 2,234 references; 14 unresolved inclusions; 0 syntax errors; 117 unresolved names (2.87%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-03 03:03:54.922
+!MESSAGE Indexed 'ThreadsWithCore' (1 sources, 49 headers) in 1.09 sec: 2,057 declarations; 2,167 references; 12 unresolved inclusions; 0 syntax errors; 64 unresolved names (1.49%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-03 03:03:55.963
+!MESSAGE Indexed 'ThreadsWithFault' (1 sources, 53 headers) in 0.88 sec: 2,414 declarations; 2,695 references; 14 unresolved inclusions; 0 syntax errors; 94 unresolved names (1.81%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-03 03:03:56.746
+!MESSAGE Indexed 'faultex' (1 sources, 50 headers) in 0.62 sec: 2,048 declarations; 2,217 references; 13 unresolved inclusions; 0 syntax errors; 86 unresolved names (1.98%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-03 03:03:57.162
+!MESSAGE Indexed 'hello' (1 sources, 44 headers) in 0.39 sec: 1,402 declarations; 1,694 references; 12 unresolved inclusions; 0 syntax errors; 68 unresolved names (2.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-03 03:03:57.870
+!MESSAGE Indexed 'multiapp' (1 sources, 44 headers) in 0.53 sec: 1,402 declarations; 1,694 references; 12 unresolved inclusions; 0 syntax errors; 68 unresolved names (2.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-03 03:03:58.391
+!MESSAGE Indexed 'strncpyTest' (1 sources, 42 headers) in 0.36 sec: 1,225 declarations; 1,447 references; 11 unresolved inclusions; 0 syntax errors; 66 unresolved names (2.41%)
+!SESSION 2015-02-03 04:15:30.170 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_38
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/developer/examples/debuggingExamples -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-03 04:16:25.593
+!MESSAGE Indexed 'uselibs' (1 sources, 46 headers) in 1.33 sec: 1,428 declarations; 1,831 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-03 04:16:28.618
+!MESSAGE Indexed 'demo2' (1 sources, 76 headers) in 1.69 sec: 2,145 declarations; 2,379 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-03 04:16:29.150
+!MESSAGE Indexed 'demo1' (1 sources, 34 headers) in 0.47 sec: 661 declarations; 803 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-03 06:13:28.410
+!MESSAGE Indexed 'app1' (1 sources, 148 headers) in 10.19 sec: 10,244 declarations; 15,479 references; 0 unresolved inclusions; 7 syntax errors; 71 unresolved names (0.28%)
+!SESSION 2015-05-19 01:26:12.701 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-05-19 01:26:21.231
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

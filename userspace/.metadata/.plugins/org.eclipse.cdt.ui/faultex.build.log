@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project faultex ****
+
+make all 
+Building file: ../fa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fa.d" -MT"fa.d" -o "fa.o" "../fa.c"
+../fa.c: In function ‘catchit’:
+../fa.c:17:2: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 2 has type ‘void *’ [-Wformat]
+Finished building: ../fa.c
+ 
+Building target: faultex
+Invoking: GCC C Linker
+gcc  -o "faultex"  ./fa.o   
+Finished building target: faultex
+ 
+
+**** Build Finished ****

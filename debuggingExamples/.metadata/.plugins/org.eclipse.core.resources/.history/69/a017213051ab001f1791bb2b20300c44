@@ -1,0 +1,4 @@
+#Wed Aug 18 20:01:48 IDT 2010
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.exe.debug.1324916444=<?xml version\="1.0" encoding\="UTF-8"?>\n<environment append\="true" appendContributed\="true">\n<variable delimiter\="\:" name\="PATH" operation\="append" value\="/opt/courses/arm/arm-2009q1/bin\:${PATH}"/>\n</environment>\n
+environment/project/cdt.managedbuild.config.gnu.exe.release.530093933=<?xml version\="1.0" encoding\="UTF-8"?>\n<environment append\="true" appendContributed\="true">\n<variable delimiter\="\:" name\="PATH" operation\="append" value\="/opt/courses/arm/arm-2009q1/bin\:${PATH}"/>\n</environment>\n

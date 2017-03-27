@@ -1,0 +1,6 @@
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.cdt.ui.presentation\tTorg.eclipse.cdt.ui.CEditor.presentation
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jface.textfont
+UIActivities.org.eclipse.cdt.debug.dsfgdbActivity=true
+eclipse.preferences.version=1
+org.eclipse.cdt.ui.editors.textfont=1|Monospace|14.0|1|GTK|1|;
+org.eclipse.jface.textfont=1|Monospace|12.0|1|GTK|1|;

@@ -1,0 +1,23 @@
+
+**** Build of configuration Debug for project faultex ****
+
+make all 
+Building file: ../fa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fa.d" -MT"fa.d" -o "fa.o" "../fa.c"
+../fa.c: In function ‘catchit’:
+../fa.c:44:2: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 2 has type ‘void *’ [-Wformat]
+../fa.c:46:2: warning: passing argument 1 of ‘setHandler’ from incompatible pointer type [enabled by default]
+../fa.c:12:6: note: expected ‘void (*)(int,  struct siginfo_t *, void *)’ but argument is of type ‘void (*)(int)’
+../fa.c: In function ‘main’:
+../fa.c:59:3: warning: assignment makes pointer from integer without a cast [enabled by default]
+../fa.c:55:7: warning: variable ‘p’ set but not used [-Wunused-but-set-variable]
+Finished building: ../fa.c
+ 
+Building target: faultex
+Invoking: GCC C Linker
+gcc  -o "faultex"  ./fa.o   
+Finished building target: faultex
+ 
+
+**** Build Finished ****

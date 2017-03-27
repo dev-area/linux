@@ -1,0 +1,7 @@
+#Mon Feb 10 09:53:33 IST 2014
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.cdt.ui.presentation\tTorg.eclipse.cdt.ui.CEditor.presentation
+org.eclipse.cdt.ui.editors.textfont=1|Nimbus Sans L|24.0|1|GTK|1|;
+org.eclipse.jface.textfont=1|Monospace|14.0|1|GTK|1|;
+eclipse.preferences.version=1
+org.eclipse.cdt.ui.buildconsole.ConsoleFont=1|Monospace|14.0|1|GTK|1|;
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.cdt.ui.editors.textfont

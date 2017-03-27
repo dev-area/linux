@@ -1,0 +1,30 @@
+
+**** Build of configuration Debug for project app1 ****
+
+make all 
+Building file: ../src/app1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/app1.d" -MT"src/app1.d" -o "src/app1.o" "../src/app1.cpp"
+Finished building: ../src/app1.cpp
+ 
+Building target: app1
+Invoking: GCC C++ Linker
+g++  -o "app1"  ./src/app1.o   
+Finished building target: app1
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project app1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project app1 ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****

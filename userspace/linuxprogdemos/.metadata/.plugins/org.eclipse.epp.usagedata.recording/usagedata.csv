@@ -1,0 +1,9 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.team.ui,3.4.1.r34x_20080827,org.eclipse.team.ui,1241167642005
+stopped,bundle,org.eclipse.compare,3.4.1.r34x_20090121,org.eclipse.compare,1241167642005
+stopped,bundle,org.eclipse.ui.externaltools,3.2.0.v20080514-1542,org.eclipse.ui.externaltools,1241167642028
+stopped,bundle,org.eclipse.debug.ui,3.4.2.v20090110_r342,org.eclipse.debug.ui,1241167642028
+stopped,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.1.R34x_v20081029,org.eclipse.equinox.p2.ui.sdk,1241167642028
+stopped,bundle,org.eclipse.equinox.p2.ui,1.0.4.R34x_v20090123,org.eclipse.equinox.p2.ui,1241167642028
+stopped,bundle,org.eclipse.equinox.security.ui,1.0.0.v20080603-1810,org.eclipse.equinox.security.ui,1241167642160
+stopped,bundle,org.eclipse.cdt,5.0.2.200902130801,org.eclipse.cdt,1241167642161

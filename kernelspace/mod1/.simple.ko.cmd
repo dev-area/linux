@@ -1,0 +1,1 @@
+cmd_/opt/examples/kernelspace/mod1/simple.ko := arm-none-linux-gnueabi-ld -EL -r  -T /opt/armsystem/linux-2.6.32/scripts/module-common.lds --build-id -o /opt/examples/kernelspace/mod1/simple.ko /opt/examples/kernelspace/mod1/simple.o /opt/examples/kernelspace/mod1/simple.mod.o

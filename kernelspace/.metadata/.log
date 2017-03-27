@@ -1,0 +1,948 @@
+!SESSION 2007-10-14 05:45:19.508 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /opt/examples/kernelworkspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 0 2007-10-14 05:55:40.683
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:454)
+	at org.eclipse.jface.viewers.StructuredViewer$8.run(StructuredViewer.java:1460)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1458)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:547)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:300)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:401)
+	at org.eclipse.cdt.ui.CElementContentProvider$RefreshElement.refresh(CElementContentProvider.java:358)
+	at org.eclipse.cdt.ui.CElementContentProvider$1.run(CElementContentProvider.java:431)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+!SESSION 2007-10-14 04:25:19.440 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2007-10-14 04:25:25.279
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2007-10-14 08:08:35.462 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2007-10-14 08:08:42.433
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2008-04-10 09:31:48.193 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.cdt.ui 4 0 2008-04-10 09:34:07.039
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element /usr/include/linux/kernel.h does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:451)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:525)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:60)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:342)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:405)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:127)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:164)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:103)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:384)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:170)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2008-04-10 09:34:07.049
+!MESSAGE Element /usr/include/linux/kernel.h does not exist.
+!SESSION 2008-04-10 12:51:28.590 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /opt/examples/kernelworkspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 0 2008-04-10 13:02:45.557
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1746)
+	at org.eclipse.jface.viewers.StructuredViewer$7.run(StructuredViewer.java:1433)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1431)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:536)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1390)
+	at org.eclipse.cdt.internal.ui.editor.CContentOutlinerProvider$1.run(CContentOutlinerProvider.java:103)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2008-04-10 13:06:03.274
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1746)
+	at org.eclipse.jface.viewers.StructuredViewer$7.run(StructuredViewer.java:1433)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1431)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:536)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1390)
+	at org.eclipse.cdt.internal.ui.editor.CContentOutlinerProvider$1.run(CContentOutlinerProvider.java:103)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2008-04-10 13:07:42.066
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1746)
+	at org.eclipse.jface.viewers.StructuredViewer$7.run(StructuredViewer.java:1433)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1431)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:536)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1390)
+	at org.eclipse.cdt.internal.ui.editor.CContentOutlinerProvider$1.run(CContentOutlinerProvider.java:103)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2008-04-10 13:07:55.258
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1746)
+	at org.eclipse.jface.viewers.StructuredViewer$7.run(StructuredViewer.java:1433)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1431)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:536)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1390)
+	at org.eclipse.cdt.internal.ui.editor.CContentOutlinerProvider$1.run(CContentOutlinerProvider.java:103)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2008-04-10 13:08:12.152
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1746)
+	at org.eclipse.jface.viewers.StructuredViewer$7.run(StructuredViewer.java:1433)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1431)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:536)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1390)
+	at org.eclipse.cdt.internal.ui.editor.CContentOutlinerProvider$1.run(CContentOutlinerProvider.java:103)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+!SESSION 2008-04-10 14:01:22.358 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 0 2008-04-10 17:48:14.615
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:454)
+	at org.eclipse.jface.viewers.StructuredViewer$8.run(StructuredViewer.java:1460)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1458)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:547)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:300)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:401)
+	at org.eclipse.cdt.ui.CElementContentProvider$RefreshElement.refresh(CElementContentProvider.java:358)
+	at org.eclipse.cdt.ui.CElementContentProvider$1.run(CElementContentProvider.java:431)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+!SESSION 2008-04-11 02:25:14.641 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2008-04-11 02:25:19.772
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 0 2008-04-11 06:43:13.000
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:454)
+	at org.eclipse.jface.viewers.StructuredViewer$8.run(StructuredViewer.java:1460)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1458)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:547)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:300)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:401)
+	at org.eclipse.cdt.ui.CElementContentProvider$RefreshElement.refresh(CElementContentProvider.java:358)
+	at org.eclipse.cdt.ui.CElementContentProvider$1.run(CElementContentProvider.java:431)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2008-04-11 11:12:25.392
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:454)
+	at org.eclipse.jface.viewers.StructuredViewer$8.run(StructuredViewer.java:1460)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1458)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:547)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:300)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:401)
+	at org.eclipse.cdt.ui.CElementContentProvider$RefreshElement.refresh(CElementContentProvider.java:358)
+	at org.eclipse.cdt.ui.CElementContentProvider$1.run(CElementContentProvider.java:431)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+!SESSION 2008-04-11 04:15:29.111 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2008-04-11 04:15:37.879
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 0 2008-04-11 05:24:21.106
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:454)
+	at org.eclipse.jface.viewers.StructuredViewer$8.run(StructuredViewer.java:1460)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1458)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:547)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:300)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:401)
+	at org.eclipse.cdt.ui.CElementContentProvider$RefreshElement.refresh(CElementContentProvider.java:358)
+	at org.eclipse.cdt.ui.CElementContentProvider$1.run(CElementContentProvider.java:431)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2008-04-29 05:41:43.817
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:454)
+	at org.eclipse.jface.viewers.StructuredViewer$8.run(StructuredViewer.java:1460)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1458)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:547)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:300)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:401)
+	at org.eclipse.cdt.ui.CElementContentProvider$RefreshElement.refresh(CElementContentProvider.java:358)
+	at org.eclipse.cdt.ui.CElementContentProvider$1.run(CElementContentProvider.java:431)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2008-04-29 05:55:34.472
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:454)
+	at org.eclipse.jface.viewers.StructuredViewer$8.run(StructuredViewer.java:1460)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1458)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:547)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:300)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:401)
+	at org.eclipse.cdt.ui.CElementContentProvider$RefreshElement.refresh(CElementContentProvider.java:358)
+	at org.eclipse.cdt.ui.CElementContentProvider$1.run(CElementContentProvider.java:431)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+!SESSION 2008-04-29 09:48:40.062 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2008-04-29 09:48:47.633
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2010-08-17 11:21:15.926 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /opt/examples/kernelspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 0 2010-08-17 11:40:09.767
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:454)
+	at org.eclipse.jface.viewers.StructuredViewer$8.run(StructuredViewer.java:1460)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1458)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:547)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:300)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:401)
+	at org.eclipse.cdt.ui.CElementContentProvider$RefreshElement.refresh(CElementContentProvider.java:358)
+	at org.eclipse.cdt.ui.CElementContentProvider$1.run(CElementContentProvider.java:431)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2010-08-17 11:53:56.218
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.ui.navigator.CommonViewer.internalRefresh(CommonViewer.java:454)
+	at org.eclipse.jface.viewers.StructuredViewer$8.run(StructuredViewer.java:1460)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1458)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:547)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:300)
+	at org.eclipse.ui.navigator.CommonViewer.refresh(CommonViewer.java:401)
+	at org.eclipse.cdt.ui.CElementContentProvider$RefreshElement.refresh(CElementContentProvider.java:358)
+	at org.eclipse.cdt.ui.CElementContentProvider$1.run(CElementContentProvider.java:431)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+!SESSION 2014-11-23 10:02:53.529 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_38
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/developer/examples/kernelspace -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-23 10:03:04.235
+!MESSAGE Indexed 'CharDrv' (2 sources, 8 headers) in 0.96 sec: 32 declarations; 27 references; 21 unresolved inclusions; 12 syntax errors; 19 unresolved names (24.36%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-23 10:03:05.509
+!MESSAGE Indexed 'Int1' (2 sources, 53 headers) in 1.20 sec: 784 declarations; 817 references; 17 unresolved inclusions; 6 syntax errors; 7 unresolved names (0.44%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-23 10:03:06.073
+!MESSAGE Indexed 'ProcEx' (2 sources, 35 headers) in 0.50 sec: 698 declarations; 809 references; 15 unresolved inclusions; 5 syntax errors; 22 unresolved names (1.44%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-23 10:03:07.380
+!MESSAGE Indexed 'UseCharDrv1' (1 sources, 64 headers) in 0.95 sec: 2,209 declarations; 2,452 references; 14 unresolved inclusions; 0 syntax errors; 94 unresolved names (1.98%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-23 10:03:08.811
+!MESSAGE Indexed 'UseProcDev' (1 sources, 64 headers) in 1.24 sec: 2,203 declarations; 2,445 references; 14 unresolved inclusions; 0 syntax errors; 94 unresolved names (1.98%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-23 10:03:09.512
+!MESSAGE Indexed 'charDrvEx' (2 sources, 52 headers) in 0.61 sec: 787 declarations; 827 references; 17 unresolved inclusions; 11 syntax errors; 17 unresolved names (1.04%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-23 10:03:10.043
+!MESSAGE Indexed 'complexchardrv' (2 sources, 53 headers) in 0.52 sec: 824 declarations; 907 references; 20 unresolved inclusions; 8 syntax errors; 32 unresolved names (1.82%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-23 10:03:10.787
+!MESSAGE Indexed 'mod1' (2 sources, 56 headers) in 0.67 sec: 778 declarations; 812 references; 20 unresolved inclusions; 6 syntax errors; 7 unresolved names (0.44%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-23 10:03:11.435
+!MESSAGE Indexed 'tasklets' (2 sources, 36 headers) in 0.48 sec: 677 declarations; 768 references; 13 unresolved inclusions; 5 syntax errors; 9 unresolved names (0.62%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-23 10:03:12.465
+!MESSAGE Indexed 'useSimpleChar' (1 sources, 67 headers) in 0.83 sec: 2,214 declarations; 2,457 references; 14 unresolved inclusions; 0 syntax errors; 94 unresolved names (1.97%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-23 10:03:13.115
+!MESSAGE Indexed 'workq' (2 sources, 36 headers) in 0.56 sec: 680 declarations; 775 references; 14 unresolved inclusions; 3 syntax errors; 9 unresolved names (0.61%)
+!SESSION 2015-06-10 12:06:58.124 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-06-10 12:07:24.698
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2015-06-10 12:21:15.313 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-06-10 12:21:22.644
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2015-06-21 01:34:56.608 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-06-21 01:35:04.667
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

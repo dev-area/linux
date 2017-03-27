@@ -1,0 +1,1 @@
+cmd_/opt/examples/kernelworkspace/tasklets/tasklet.ko := ld -m elf_i386 -m elf_i386 -r -o /opt/examples/kernelworkspace/tasklets/tasklet.ko /opt/examples/kernelworkspace/tasklets/tasklet.o /opt/examples/kernelworkspace/tasklets/tasklet.mod.o

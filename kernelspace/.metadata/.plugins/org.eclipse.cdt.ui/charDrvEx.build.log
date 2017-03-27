@@ -1,0 +1,9 @@
+make -k all 
+make -C ~/armsystem/kernel/linux-3.10 M=/home/developer/examples/kernelspace/charDrvEx modules
+make[1]: Entering directory `/home/developer/armsystem/kernel/linux-3.10'
+  CC [M]  /home/developer/examples/kernelspace/charDrvEx/chello.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/developer/examples/kernelspace/charDrvEx/chello.mod.o
+  LD [M]  /home/developer/examples/kernelspace/charDrvEx/chello.ko
+make[1]: Leaving directory `/home/developer/armsystem/kernel/linux-3.10'

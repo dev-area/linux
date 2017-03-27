@@ -1,0 +1,1 @@
+cmd_/opt/examples/kernelspace/complexchardrv/complex.ko := arm-none-linux-gnueabi-ld -EL -r  -T /opt/armsystem/linux-2.6.32/scripts/module-common.lds --build-id -o /opt/examples/kernelspace/complexchardrv/complex.ko /opt/examples/kernelspace/complexchardrv/complex.o /opt/examples/kernelspace/complexchardrv/complex.mod.o

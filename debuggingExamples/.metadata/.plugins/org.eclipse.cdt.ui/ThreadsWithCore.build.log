@@ -1,0 +1,16 @@
+
+**** Build of configuration Debug for project ThreadsWithCore ****
+
+make all 
+Building file: ../x.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"x.d" -MT"x.d" -o "x.o" "../x.c"
+Finished building: ../x.c
+ 
+Building target: SimpleThread
+Invoking: GCC C Linker
+gcc  -o "SimpleThread"  ./x.o   -lpthread -lrt
+Finished building target: SimpleThread
+ 
+
+**** Build Finished ****

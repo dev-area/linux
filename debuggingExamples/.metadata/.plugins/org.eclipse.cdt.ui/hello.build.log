@@ -1,0 +1,16 @@
+
+**** Build of configuration Debug for project hello ****
+
+make all 
+Building file: ../src/hello.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.d" -o "src/hello.o" "../src/hello.c"
+Finished building: ../src/hello.c
+ 
+Building target: hello
+Invoking: GCC C Linker
+gcc  -o "hello"  ./src/hello.o   
+Finished building target: hello
+ 
+
+**** Build Finished ****

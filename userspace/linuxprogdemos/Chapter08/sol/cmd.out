@@ -1,0 +1,6 @@
+total 114
+-rw-r--r--   1 george   staff          0 Apr  2 12:20 cmd.out
+-rwxr-xr-x   1 george   staff      52920 Apr  2 12:20 countlines
+-rw-r--r--   1 george   staff       1818 Apr  2 12:20 countlines.c
+-rw-r--r--   1 george   staff       1085 Mar 26 15:57 countlines.c~
+-rw-r--r--   1 george   staff        123 Apr  2 12:11 Makefile

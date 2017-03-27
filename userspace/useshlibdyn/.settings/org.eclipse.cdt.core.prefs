@@ -1,0 +1,4 @@
+#Wed Jun 17 11:14:20 EDT 2009
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.exe.debug.348424271=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<environment append\="true" appendContributed\="true">\n<variable delimiter\=";" name\="PATH" operation\="append" value\="/opt/examples/workspace/shlibdemo/Debug\:$PATH"/>\n</environment>\n
+environment/project/cdt.managedbuild.config.gnu.exe.release.536435452=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<environment append\="true" appendContributed\="true">\n<variable delimiter\=";" name\="PATH" operation\="append" value\="/opt/examples/workspace/shlibdemo/Debug\:$PATH"/>\n</environment>\n

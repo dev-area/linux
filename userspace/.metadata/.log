@@ -1,0 +1,2442 @@
+!SESSION 2007-10-14 04:25:32.467 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /opt/examples/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 06:10:20.533
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2007-10-14 06:53:00.494 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 07:08:47.728
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.ui.console 4 2 2007-10-14 07:16:30.763
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.ui.console 4 120 2007-10-14 07:16:30.764
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 07:24:01.408
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 07:28:45.325
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 07:31:07.453
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.ui.console 4 2 2007-10-14 07:33:11.296
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.ui.console 4 120 2007-10-14 07:33:11.301
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.ui.console 4 2 2007-10-14 07:38:12.152
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.ui.console 4 120 2007-10-14 07:38:12.156
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.ui 4 0 2007-10-14 08:07:21.136
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1746)
+	at org.eclipse.jface.viewers.StructuredViewer$7.run(StructuredViewer.java:1433)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1431)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:536)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1390)
+	at org.eclipse.cdt.internal.ui.editor.CContentOutlinerProvider$1.run(CContentOutlinerProvider.java:103)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2007-10-14 08:07:50.503
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:126)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3563)
+	at org.eclipse.swt.SWT.error(SWT.java:3481)
+	at org.eclipse.swt.SWT.error(SWT.java:3452)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:438)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:376)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:464)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2542)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1829)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1804)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1760)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1746)
+	at org.eclipse.jface.viewers.StructuredViewer$7.run(StructuredViewer.java:1433)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1368)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:390)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1330)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1431)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:536)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1390)
+	at org.eclipse.cdt.internal.ui.editor.CContentOutlinerProvider$1.run(CContentOutlinerProvider.java:103)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	... 23 more
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 08:35:58.322
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 08:37:14.725
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 08:45:06.687
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 08:58:00.220
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2007-10-14 10:08:38.282 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /opt/examples/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 4 567 2007-10-14 10:08:42.552
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2007-10-14 10:08:42.552
+!MESSAGE Could not read metadata for 'CharDrv'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'CharDrv' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:660)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:792)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:772)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:663)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1319)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:1949)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1713)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:363)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:999)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:993)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:974)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:346)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:260)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:189)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:37)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:405)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:369)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:357)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:83)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:107)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2007-10-14 10:08:42.555
+!MESSAGE The project description file (.project) for 'CharDrv' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2007-10-14 10:08:42.555
+!MESSAGE Could not read metadata for 'ProcEx'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'ProcEx' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:660)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:792)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:772)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:663)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1319)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:1949)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1713)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:363)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:999)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:993)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:974)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:346)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:260)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:189)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:37)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:405)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:369)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:357)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:83)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:107)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2007-10-14 10:08:42.556
+!MESSAGE The project description file (.project) for 'ProcEx' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2007-10-14 10:08:42.556
+!MESSAGE Could not read metadata for 'mod1'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'mod1' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:660)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:792)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:772)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:663)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1319)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:1949)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1713)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:363)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:999)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:993)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:974)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:346)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:260)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:189)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:37)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:405)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:369)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:357)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:83)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:107)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2007-10-14 10:08:42.558
+!MESSAGE The project description file (.project) for 'mod1' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SESSION 2007-10-14 01:28:47.431 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2007-10-14 01:28:55.432
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 01:32:12.837
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 01:33:14.609
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 01:33:51.251
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2007-10-14 04:03:39.103 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 07:02:31.754
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 07:03:16.485
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 07:06:04.043
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2007-10-14 01:09:08.967 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2007-10-14 01:09:18.276
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2007-10-14 04:59:07.398 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2007-10-14 04:59:21.838
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 05:05:39.621
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2007-10-14 08:11:32.971 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /opt/examples/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui.console 4 2 2007-10-14 08:16:14.663
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.ui.console 4 120 2007-10-14 08:16:14.764
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.cdt.debug.core 4 1000 2007-10-14 08:18:07.062
+!MESSAGE Internal error logged from CDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Target request failed: Cannot access memory at address 0x80483e4.
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.stopAtLocation(CDebugTarget.java:1809)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.stopAtSymbol(CDebugTarget.java:1816)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.start(CDebugTarget.java:296)
+	at org.eclipse.cdt.debug.core.CDIDebugModel$1.run(CDIDebugModel.java:92)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1797)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1779)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:155)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.debug.core 0 5010 2007-10-14 08:18:07.063
+!MESSAGE Target request failed: Cannot access memory at address 0x80483e4.
+
+!ENTRY org.eclipse.debug.core 4 120 2007-10-14 08:18:07.636
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Write end dead
+	at java.io.PipedInputStream.read(Unknown Source)
+	at java.io.PipedInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2007-10-14 09:08:19.672 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui.console 4 2 2007-10-14 09:11:36.070
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.ui.console 4 120 2007-10-14 09:11:36.073
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.cdt.debug.core 4 1000 2007-10-14 09:11:42.954
+!MESSAGE Internal error logged from CDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Target request failed: Cannot access memory at address 0x80483e4.
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.stopAtLocation(CDebugTarget.java:1809)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.stopAtSymbol(CDebugTarget.java:1816)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugTarget.start(CDebugTarget.java:296)
+	at org.eclipse.cdt.debug.core.CDIDebugModel$1.run(CDIDebugModel.java:92)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1797)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1779)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.newDebugTarget(CDIDebugModel.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:155)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.debug.core 0 5010 2007-10-14 09:11:42.955
+!MESSAGE Target request failed: Cannot access memory at address 0x80483e4.
+!SESSION 2008-04-09 12:38:07.888 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2008-04-09 12:38:16.142
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2008-04-09 11:21:22.666 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2008-04-09 11:21:31.131
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui.console 4 2 2008-04-09 11:24:14.379
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.ui.console 4 120 2008-04-09 11:24:14.388
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.ui.console 4 2 2008-04-09 11:31:30.347
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.ui.console 4 120 2008-04-09 11:31:30.355
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+!SESSION 2008-04-09 23:43:46.812 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /opt/examples/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.debug.core 4 120 2008-04-10 00:04:18.232
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-04-10 00:05:40.197
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2008-04-09 11:08:36.176 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2008-04-09 11:08:45.475
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2008-04-10 10:02:51.475 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /opt/examples/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:06:08.395
+!MESSAGE Error creating session
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:06:08.396
+!MESSAGE Interpreter `mi' unrecognized
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:07:04.155
+!MESSAGE Error creating session
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:07:04.155
+!MESSAGE Interpreter `mi' unrecognized
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:10:12.011
+!MESSAGE Error creating session
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:10:12.012
+!MESSAGE Interpreter `mi' unrecognized
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:14:55.779
+!MESSAGE Error creating session
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:14:55.786
+!MESSAGE Interpreter `mi' unrecognized
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:16:20.589
+!MESSAGE Error creating session
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi1' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:16:20.590
+!MESSAGE Interpreter `mi1' unrecognized
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi1' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:17:20.455
+!MESSAGE Error creating session
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:17:20.457
+!MESSAGE Interpreter `mi' unrecognized
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:24:25.705
+!MESSAGE Error creating session
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:24:25.705
+!MESSAGE Interpreter `mi' unrecognized
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:31:41.787
+!MESSAGE Error creating session
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:31:41.791
+!MESSAGE Interpreter `mi' unrecognized
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:41:27.246
+!MESSAGE Error creating session
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.debug.mi.core 4 150 2008-04-10 10:41:27.253
+!MESSAGE Interpreter `mi' unrecognized
+!STACK 0
+org.eclipse.cdt.debug.mi.core.MIException: Interpreter `mi' unrecognized
+	at org.eclipse.cdt.debug.mi.core.MISession.setup(MISession.java:231)
+	at org.eclipse.cdt.debug.mi.core.MISession.<init>(MISession.java:203)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createMISession0(MIPlugin.java:130)
+	at org.eclipse.cdt.debug.mi.core.MIPlugin.createSession(MIPlugin.java:459)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createGDBSession(AbstractGDBCDIDebugger.java:109)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:66)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugSession(LocalCDILaunchDelegate.java:308)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.createCDISession(LocalCDILaunchDelegate.java:433)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:138)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:105)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:65)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:766)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2008-06-13 19:30:01.776 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /opt/examples/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui.console 4 2 2008-06-13 23:34:44.490
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.ui.console 4 120 2008-06-13 23:34:44.531
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+!SESSION 2008-06-18 15:37:59.720 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.debug.core 4 120 2008-06-18 15:48:20.537
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-06-18 15:48:29.311
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2008-06-18 15:49:02.704
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2010-08-08 11:08:41.895 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /opt/examples/workspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.jobs 4 2 2010-08-08 11:14:04.021
+!MESSAGE An internal error occurred during: "Launching test1".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.setBuildConfiguration(AbstractCLaunchDelegate.java:565)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.buildForLaunch(AbstractCLaunchDelegate.java:541)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:732)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2010-08-08 11:14:11.704
+!MESSAGE An internal error occurred during: "Launching test1".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.setBuildConfiguration(AbstractCLaunchDelegate.java:565)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.buildForLaunch(AbstractCLaunchDelegate.java:541)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:732)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2010-08-08 11:14:17.552
+!MESSAGE An internal error occurred during: "Launching test1".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.setBuildConfiguration(AbstractCLaunchDelegate.java:565)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.buildForLaunch(AbstractCLaunchDelegate.java:541)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:732)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2010-08-08 11:14:30.813
+!MESSAGE An internal error occurred during: "Launching test1".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.setBuildConfiguration(AbstractCLaunchDelegate.java:565)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.buildForLaunch(AbstractCLaunchDelegate.java:541)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:732)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.core 4 120 2010-08-08 11:14:59.277
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.core.jobs 4 2 2010-08-08 11:15:18.856
+!MESSAGE An internal error occurred during: "Launching test1".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.setBuildConfiguration(AbstractCLaunchDelegate.java:565)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.buildForLaunch(AbstractCLaunchDelegate.java:541)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:732)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:608)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:899)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$7.run(DebugUIPlugin.java:1102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2010-08-08 13:14:57.527 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-08-08 13:15:00.499
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 0 2010-08-08 13:15:12.708
+!MESSAGE Unable to create editor ID org.eclipse.cdt.ui.editor.CEditor: The file does not exist.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:237)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:109)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:553)
+	at org.eclipse.cdt.internal.ui.editor.ExternalSearchDocumentProvider.createFileInfo(ExternalSearchDocumentProvider.java:43)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:472)
+	at org.eclipse.ui.editors.text.ForwardingDocumentProvider.connect(ForwardingDocumentProvider.java:114)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:474)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.connect(CDocumentProvider.java:737)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:3931)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:190)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1225)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:168)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(CEditor.java:1169)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:2994)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:369)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:313)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:758)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2451)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3012)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3039)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:794)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:643)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:426)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:592)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:263)
+	at org.eclipse.ui.internal.WorkbenchPage.makeActiveEditor(WorkbenchPage.java:1211)
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivePart(WorkbenchPage.java:1169)
+	at org.eclipse.ui.internal.WorkbenchPage.handleDeferredEvents(WorkbenchPage.java:1349)
+	at org.eclipse.ui.internal.WorkbenchPage.deferUpdates(WorkbenchPage.java:1338)
+	at org.eclipse.ui.internal.WorkbenchPage.access$16(WorkbenchPage.java:1329)
+	at org.eclipse.ui.internal.WorkbenchPage$15.runWithException(WorkbenchPage.java:3172)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:801)
+	at org.eclipse.ui.internal.Workbench$25.runWithException(Workbench.java:1342)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2309)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2010-08-08 13:15:12.710
+!MESSAGE The file does not exist.
+!SESSION 2010-08-12 11:16:32.434 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /opt/examples/userspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.debug.core 4 120 2010-08-12 14:54:44.539
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2010-08-12 14:54:51.365
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2010-08-12 14:54:57.482
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2010-08-12 14:54:59.706
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2010-08-12 14:55:02.551
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2010-08-12 14:55:03.073
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.debug.core 4 120 2010-08-12 14:55:26.039
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:60)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2010-08-15 14:26:59.791 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /opt/examples/userspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui.console 4 2 2010-08-15 16:24:52.491
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.ui.console 4 120 2010-08-15 16:24:52.494
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+!SESSION 2014-01-20 09:51:14.434 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_12
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -data /opt/examples/userspace -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui.console 4 2 2014-01-20 13:27:20.554
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.ui.console 4 120 2014-01-20 13:27:20.556
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.mi.ui.console.actions.MiConsoleVerboseModeAction.<init>(MiConsoleVerboseModeAction.java:32)
+	at org.eclipse.cdt.debug.mi.ui.console.MiConsolePageParticipant.init(MiConsolePageParticipant.java:70)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:312)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:310)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:399)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:741)
+	at org.eclipse.ui.internal.console.ConsoleView$4.run(ConsoleView.java:380)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:123)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3296)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2974)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+!SESSION 2015-02-02 13:05:24.205 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_38
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/developer/examples/userspace -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 0 2015-02-02 13:05:31.223
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2015-02-02 13:05:31.223
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-02-02 13:05:31.223
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-02-02 13:05:31.223
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-02-02 13:05:31.223
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2015-02-02 13:05:31.223
+!MESSAGE Unable to restore perspective: Workspace - C/C++.
+!SUBENTRY 2 org.eclipse.ui 0 0 2015-02-02 13:05:31.223
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2015-02-02 13:05:31.223
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2015-02-02 13:05:31.223
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-02-02 13:05:31.223
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-02-02 13:05:31.223
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-02-02 13:05:31.223
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 4 2015-02-02 13:05:31.224
+!MESSAGE Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1249)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1219)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3293)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3563)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3212)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1600)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3563)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3212)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2609)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+!SUBENTRY 3 org.eclipse.ui 4 0 2015-02-02 13:05:31.224
+!MESSAGE Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+!SUBENTRY 2 unknown 0 0 2015-02-02 13:05:31.225
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-02-02 13:05:31.225
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-02-02 13:05:31.225
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-02-02 13:05:31.225
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-02-02 13:05:31.225
+!MESSAGE OK
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:36.670
+!MESSAGE Indexed 'AbortExample' (1 sources, 50 headers) in 2.42 sec: 2,034 declarations; 2,157 references; 13 unresolved inclusions; 0 syntax errors; 85 unresolved names (1.99%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:38.923
+!MESSAGE Indexed 'Application' (9 sources, 82 headers) in 1.98 sec: 2,856 declarations; 3,244 references; 17 unresolved inclusions; 0 syntax errors; 134 unresolved names (2.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:41.273
+!MESSAGE Indexed 'AtExit' (1 sources, 44 headers) in 0.90 sec: 1,413 declarations; 1,805 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:42.121
+!MESSAGE Indexed 'CancelPointTest' (1 sources, 53 headers) in 0.67 sec: 2,404 declarations; 2,662 references; 14 unresolved inclusions; 0 syntax errors; 93 unresolved names (1.80%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:42.243
+!MESSAGE Indexed 'CondvarTest' (1 sources, 8 headers) in 0.05 sec: 13 declarations; 48 references; 11 unresolved inclusions; 0 syntax errors; 13 unresolved names (17.57%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:42.921
+!MESSAGE Indexed 'CoreTest' (1 sources, 40 headers) in 0.50 sec: 1,063 declarations; 1,222 references; 10 unresolved inclusions; 0 syntax errors; 39 unresolved names (1.68%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:43.051
+!MESSAGE Indexed 'ForkAndSignal' (1 sources, 8 headers) in 0.03 sec: 7 declarations; 16 references; 13 unresolved inclusions; 0 syntax errors; 6 unresolved names (20.69%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:43.605
+!MESSAGE Indexed 'ForkExample' (1 sources, 45 headers) in 0.47 sec: 1,662 declarations; 1,659 references; 11 unresolved inclusions; 0 syntax errors; 56 unresolved names (1.66%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:44.680
+!MESSAGE Indexed 'MapdevTest' (1 sources, 69 headers) in 1.00 sec: 2,339 declarations; 2,452 references; 14 unresolved inclusions; 0 syntax errors; 94 unresolved names (1.92%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:45.076
+!MESSAGE Indexed 'OptTest' (1 sources, 45 headers) in 0.31 sec: 1,665 declarations; 1,673 references; 11 unresolved inclusions; 0 syntax errors; 56 unresolved names (1.65%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:45.467
+!MESSAGE Indexed 'RunningPipes' (1 sources, 45 headers) in 0.30 sec: 1,664 declarations; 1,673 references; 11 unresolved inclusions; 0 syntax errors; 56 unresolved names (1.65%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:45.904
+!MESSAGE Indexed 'SetrlimitTest' (1 sources, 40 headers) in 0.37 sec: 1,291 declarations; 1,248 references; 8 unresolved inclusions; 0 syntax errors; 18 unresolved names (0.70%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:46.530
+!MESSAGE Indexed 'SimpleFutex' (1 sources, 72 headers) in 0.48 sec: 2,131 declarations; 2,248 references; 12 unresolved inclusions; 0 syntax errors; 64 unresolved names (1.44%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:47.022
+!MESSAGE Indexed 'SimpleFutex2' (1 sources, 72 headers) in 0.42 sec: 2,131 declarations; 2,252 references; 12 unresolved inclusions; 0 syntax errors; 64 unresolved names (1.44%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:47.414
+!MESSAGE Indexed 'SimpleFutex3' (1 sources, 72 headers) in 0.32 sec: 2,134 declarations; 2,267 references; 12 unresolved inclusions; 0 syntax errors; 64 unresolved names (1.43%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:47.870
+!MESSAGE Indexed 'SimpleMutex' (1 sources, 49 headers) in 0.37 sec: 2,052 declarations; 2,170 references; 12 unresolved inclusions; 0 syntax errors; 64 unresolved names (1.49%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:48.480
+!MESSAGE Indexed 'SimpleThread' (1 sources, 49 headers) in 0.47 sec: 2,055 declarations; 2,157 references; 12 unresolved inclusions; 0 syntax errors; 64 unresolved names (1.50%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:48.712
+!MESSAGE Indexed 'StandardTest' (1 sources, 40 headers) in 0.18 sec: 1,057 declarations; 1,221 references; 10 unresolved inclusions; 0 syntax errors; 39 unresolved names (1.68%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:48.961
+!MESSAGE Indexed 'ThreadAttributes' (1 sources, 49 headers) in 0.19 sec: 2,054 declarations; 2,175 references; 12 unresolved inclusions; 0 syntax errors; 64 unresolved names (1.49%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:49.251
+!MESSAGE Indexed 'ZombieTest' (1 sources, 43 headers) in 0.23 sec: 1,593 declarations; 1,660 references; 10 unresolved inclusions; 0 syntax errors; 47 unresolved names (1.42%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:49.615
+!MESSAGE Indexed 'asynctest' (1 sources, 52 headers) in 0.29 sec: 2,056 declarations; 2,256 references; 13 unresolved inclusions; 0 syntax errors; 85 unresolved names (1.93%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:50.055
+!MESSAGE Indexed 'cpptest' (1 sources, 65 headers) in 0.38 sec: 1,382 declarations; 1,560 references; 12 unresolved inclusions; 0 syntax errors; 5 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:50.420
+!MESSAGE Indexed 'duptest' (1 sources, 48 headers) in 0.32 sec: 1,711 declarations; 1,765 references; 11 unresolved inclusions; 0 syntax errors; 56 unresolved names (1.59%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:50.930
+!MESSAGE Indexed 'faultex' (1 sources, 50 headers) in 0.42 sec: 2,042 declarations; 2,209 references; 13 unresolved inclusions; 0 syntax errors; 86 unresolved names (1.98%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:51.822
+!MESSAGE Indexed 'hello' (1 sources, 44 headers) in 0.50 sec: 1,402 declarations; 1,694 references; 12 unresolved inclusions; 0 syntax errors; 68 unresolved names (2.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:51.929
+!MESSAGE Indexed 'maptest' (1 sources, 8 headers) in 0.03 sec: 6 declarations; 31 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (13.95%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:52.055
+!MESSAGE Indexed 'messageq1' (1 sources, 9 headers) in 0.04 sec: 6 declarations; 25 references; 13 unresolved inclusions; 0 syntax errors; 10 unresolved names (24.39%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:52.163
+!MESSAGE Indexed 'messageq2' (1 sources, 9 headers) in 0.03 sec: 6 declarations; 26 references; 13 unresolved inclusions; 0 syntax errors; 5 unresolved names (13.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:52.282
+!MESSAGE Indexed 'mmaptest0' (1 sources, 8 headers) in 0.03 sec: 7 declarations; 48 references; 15 unresolved inclusions; 0 syntax errors; 13 unresolved names (19.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:52.896
+!MESSAGE Indexed 'pipeExampleChild' (1 sources, 49 headers) in 0.51 sec: 2,010 declarations; 2,131 references; 13 unresolved inclusions; 0 syntax errors; 85 unresolved names (2.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:53.447
+!MESSAGE Indexed 'pipeExampleParent' (1 sources, 49 headers) in 0.46 sec: 2,011 declarations; 2,134 references; 13 unresolved inclusions; 0 syntax errors; 85 unresolved names (2.01%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:53.559
+!MESSAGE Indexed 'posixmqs' (1 sources, 8 headers) in 0.03 sec: 11 declarations; 42 references; 20 unresolved inclusions; 0 syntax errors; 6 unresolved names (10.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:53.678
+!MESSAGE Indexed 'rtsignals' (1 sources, 8 headers) in 0.04 sec: 16 declarations; 39 references; 13 unresolved inclusions; 0 syntax errors; 16 unresolved names (22.54%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:54.164
+!MESSAGE Indexed 'sharedIPC' (1 sources, 52 headers) in 0.39 sec: 1,786 declarations; 1,886 references; 12 unresolved inclusions; 0 syntax errors; 65 unresolved names (1.74%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:54.257
+!MESSAGE Indexed 'sharedmem' (1 sources, 8 headers) in 0.03 sec: 5 declarations; 18 references; 14 unresolved inclusions; 0 syntax errors; 5 unresolved names (17.86%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:54.423
+!MESSAGE Indexed 'shlibdemo' (1 sources, 34 headers) in 0.10 sec: 650 declarations; 756 references; 7 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.07%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:54.509
+!MESSAGE Indexed 'signalexample1' (1 sources, 8 headers) in 0.02 sec: 10 declarations; 38 references; 13 unresolved inclusions; 0 syntax errors; 11 unresolved names (18.64%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:54.837
+!MESSAGE Indexed 'simp' (5 sources, 49 headers) in 0.23 sec: 1,725 declarations; 2,239 references; 14 unresolved inclusions; 0 syntax errors; 117 unresolved names (2.87%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:55.125
+!MESSAGE Indexed 'simple' (1 sources, 40 headers) in 0.27 sec: 1,058 declarations; 1,243 references; 10 unresolved inclusions; 0 syntax errors; 39 unresolved names (1.67%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:55.252
+!MESSAGE Indexed 'staticlibdemo' (1 sources, 34 headers) in 0.08 sec: 650 declarations; 756 references; 7 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.07%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:55.575
+!MESSAGE Indexed 'sttest' (1 sources, 40 headers) in 0.14 sec: 1,067 declarations; 1,300 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:55.821
+!MESSAGE Indexed 'tcpclient' (1 sources, 61 headers) in 0.21 sec: 2,233 declarations; 2,222 references; 14 unresolved inclusions; 0 syntax errors; 94 unresolved names (2.07%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:56.240
+!MESSAGE Indexed 'tcpserver' (1 sources, 72 headers) in 0.36 sec: 2,562 declarations; 2,712 references; 16 unresolved inclusions; 0 syntax errors; 120 unresolved names (2.22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:56.481
+!MESSAGE Indexed 'test1' (1 sources, 44 headers) in 0.18 sec: 1,404 declarations; 1,700 references; 12 unresolved inclusions; 0 syntax errors; 68 unresolved names (2.14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:56.857
+!MESSAGE Indexed 'testcpp' (1 sources, 65 headers) in 0.32 sec: 1,382 declarations; 1,560 references; 12 unresolved inclusions; 0 syntax errors; 5 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:57.266
+!MESSAGE Indexed 'tests' (1 sources, 44 headers) in 0.33 sec: 1,403 declarations; 1,695 references; 12 unresolved inclusions; 0 syntax errors; 68 unresolved names (2.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:57.402
+!MESSAGE Indexed 'timers' (1 sources, 8 headers) in 0.03 sec: 18 declarations; 63 references; 14 unresolved inclusions; 0 syntax errors; 37 unresolved names (31.36%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:57.726
+!MESSAGE Indexed 'useStaticLib' (1 sources, 40 headers) in 0.22 sec: 1,062 declarations; 1,220 references; 10 unresolved inclusions; 0 syntax errors; 39 unresolved names (1.68%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:57.909
+!MESSAGE Indexed 'useshlib' (1 sources, 42 headers) in 0.16 sec: 1,069 declarations; 1,238 references; 11 unresolved inclusions; 0 syntax errors; 39 unresolved names (1.66%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-02-02 13:05:58.122
+!MESSAGE Indexed 'useshlibdyn' (1 sources, 42 headers) in 0.14 sec: 1,073 declarations; 1,243 references; 11 unresolved inclusions; 0 syntax errors; 39 unresolved names (1.66%)
+!SESSION 2015-02-03 04:14:25.865 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_38
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/developer/examples/userspace -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-02-03 04:14:29.083
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 0 2015-02-03 04:14:34.494
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2015-02-03 04:14:34.494
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-02-03 04:14:34.494
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-02-03 04:14:34.494
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-02-03 04:14:34.494
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2015-02-03 04:14:34.495
+!MESSAGE Unable to restore perspective: Workspace - C/C++.
+!SUBENTRY 2 org.eclipse.ui 0 0 2015-02-03 04:14:34.495
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2015-02-03 04:14:34.495
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2015-02-03 04:14:34.495
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-02-03 04:14:34.495
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-02-03 04:14:34.495
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-02-03 04:14:34.495
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 4 2015-02-03 04:14:34.495
+!MESSAGE Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1249)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1219)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3293)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3563)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3212)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1600)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3563)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3212)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2609)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+!SUBENTRY 3 org.eclipse.ui 4 0 2015-02-03 04:14:34.496
+!MESSAGE Could not create view: org.eclipse.cdt.debug.ui.DisassemblyView
+!SUBENTRY 2 unknown 0 0 2015-02-03 04:14:34.496
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-02-03 04:14:34.496
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-02-03 04:14:34.496
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2015-02-03 04:14:34.496
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2015-02-03 04:14:34.496
+!MESSAGE OK

@@ -1,0 +1,1 @@
+cmd_/home/developer/examples/kernelspace/netfilter/simple.ko := arm-none-linux-gnueabi-ld -EL -r  -T /home/developer/armsystem/kernel/linux-3.10/scripts/module-common.lds --build-id  -o /home/developer/examples/kernelspace/netfilter/simple.ko /home/developer/examples/kernelspace/netfilter/simple.o /home/developer/examples/kernelspace/netfilter/simple.mod.o

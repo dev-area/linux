@@ -1,0 +1,2 @@
+set solib-absolute-prefix /dev/null
+set solib-search-path /opt/armsystem/output/rootfs2/lib:/opt/armsystem/output/rootfs2/usr/lib

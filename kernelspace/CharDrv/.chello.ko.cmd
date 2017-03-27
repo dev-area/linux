@@ -1,0 +1,1 @@
+cmd_/opt/examples/kernelspace/CharDrv/chello.ko := arm-none-linux-gnueabi-ld -EL -r  -T /opt/armsystem/linux-2.6.32/scripts/module-common.lds --build-id -o /opt/examples/kernelspace/CharDrv/chello.ko /opt/examples/kernelspace/CharDrv/chello.o /opt/examples/kernelspace/CharDrv/chello.mod.o
