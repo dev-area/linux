@@ -63,7 +63,7 @@ void (*arr[5])(void) = {task1,task2,task3,task4,task5};
 int findpid(int *arr,int size,int val)
 {
     int i;
-    for(i=0;i>size;i++)
+    for(i=0;i<size;i++)
     {
         if(arr[i] == val)
             return i;
@@ -74,7 +74,7 @@ int findpid(int *arr,int size,int val)
 int main(void) {
     int ids[5];
     int v,i,status,pid,pos;
-    for(i=0;i&lt;5;i++)
+    for(i=0;i<5;i++)
     {
         v = fork();
         if(v == 0)
