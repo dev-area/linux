@@ -1,0 +1,50 @@
+create shared library
+
+# gcc -shared -o libsimp.so dlsimp.c -fPIC
+
+use library
+
+# gcc -o app -L. usemylib.c -lsimp
+
+run
+
+# export LD_LIBRARY_PATH=.
+# ./app
+
+process mappings:
+
+# cat /proc/[pid]/maps
+
+build explicit link (code is using dlopen)
+
+# gcc -o app1 usedlsimp.c -ldl
+
+
+static lib
+
+# gcc -c simp.c
+# gcc -c simp2.c
+# ar rcs libsimp.a simp.o simp2.o
+
+using static lib
+# gcc -o app ./usesimp.c libsimp.a 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
